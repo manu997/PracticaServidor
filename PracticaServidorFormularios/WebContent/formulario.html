@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+	body {
+		line-height: 2;
+	}
+</style>
+</head>
+<body>
+<form action="RecibeParametros">
+	Nombre: <input type="text" name="nombre"/><br>
+	Clave: <input type="password" name="clave"/><br>
+	Género: <input type="radio" name="genero" value="H"/>Hombre
+	<input type="radio" name="genero" value="M"/>Mujer<br>
+	Fecha de nacimiento: <input type="text" name="fecha_nac"/><br>
+	País: <select name="pais">
+ 			<option value="es">España</option>
+ 			<option value="it">Italia</option>
+ 			<option value="fr">Francia</option>
+	</select><br>
+	Nota media: <input type="text" name="nota_media"/><br>
+	<input type="checkbox" name="acepto"/> Acepto<br>
+	<label>Comentarios: </label>
+	<textarea cols="20" rows="10" name="comentarios"></textarea><br>
+	Foto: <input type="file" name="foto"/><br>
+	<input type="submit" value="Enviar"/>
+</form>
+</body>
+</html>
